@@ -8,15 +8,26 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Danton Rodrigues Diniz
+- Matricula: 882849
+- Proposta de projeto escolhida: Guia de Local Túristico
+- Breve descrição sobre seu projeto: Meu projeto é um projeto que se consiste em informar locais túristicos especificamente nos Estados Unidos, com imagens que mostram um pouco do lugar, informa a cidade que se encontra com suporte também pra mobiles.
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+![image](https://github.com/user-attachments/assets/3bc9d288-22aa-412d-8da4-b8ae634a3405)
+
+
+![image](https://github.com/user-attachments/assets/c21826af-368f-43e4-9b37-cd69c93e6cdf)
+
+
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+![image](https://github.com/user-attachments/assets/06fd987e-8a50-4be0-ae8c-9b96805d7a8f)
+
+
+
+![image](https://github.com/user-attachments/assets/e0d6f315-59a9-4b32-8ef0-df4bd040a537)
+
+
