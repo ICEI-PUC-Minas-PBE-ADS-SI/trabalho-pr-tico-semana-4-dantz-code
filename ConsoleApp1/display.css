@@ -1,0 +1,103 @@
+/* Garante que os elementos fiquem na mesma linha */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+}
+
+/* Ajusta os blocos que contêm as imagens */
+.container div {
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(4, 46, 92);
+    opacity: 90%;
+    color: white;
+    border-radius: 20px;
+}
+/* Ajusta as imagens para preencher o espaço corretamente */
+.container img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do bloco */
+    height: auto;
+    object-fit: cover;
+    max-height: 200px; /* Define uma altura máxima para evitar imagens gigantes */
+}
+body {
+    background-image: url(oceano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 10px;
+    opacity: 97%;
+}
+div {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    color: rgb(248, 246, 246);
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: aqua;
+    transition: 0,3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:
+    2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black,
+     -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black,
+    -2px  0px 0 black,
+     2px  0px 0 black,
+     0px -2px 0 black,
+     0px  2px 0 black;
+     text-align: center;
+}
+ 
+
+    nav ul {
+        display: flex; /* Itens na horizontal */
+        justify-content: center; /* Centralizado */
+        list-style: none; /* Sem marcadores */
+        padding: 0;
+        gap: 15px; /* Menor espaçamento entre os links */
+    }
+    header {
+        padding: 20px 0;        /* Espaçamento vertical */
+        text-align: center;
+    }
+    
+    header h1 {
+        color: #fff;            /* Texto branco */
+        font-size: 40px;        /* Tamanho do título */
+        margin-bottom: 10px;    /* Espaçamento inferior */
+    }
+    
+    nav a {
+        display: inline-block;  /* Alinha na horizontal */
+        background-color: rgb(4, 46, 92);  /* Cor de fundo vermelha */
+        color: #fff;                /* Texto branco */
+        padding: 10px 20px;         /* Espaçamento interno */
+        margin: 0 5px;              /* Margem entre os botões */
+        border-radius: 20px;        /* Bordas arredondadas */
+        text-decoration: none;      /* Remove sublinhado */
+        font-weight: bold;          /* Texto em negrito */
+        transition: background 0.3s; /* Efeito suave ao passar o mouse */
+    }
+    
+    nav a:hover {
+        background-color: rgb(4, 46, 92);  /* Cor mais escura ao passar o mouse */
+    }
+    
+
+
